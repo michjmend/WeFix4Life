@@ -6,6 +6,15 @@
   width: 100%;
 }
 
+.content {
+  background-color: black;
+}
+
+.contentInside {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 #about {
   margin-right: 50px;
 }
