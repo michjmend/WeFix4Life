@@ -15,6 +15,7 @@
   padding-bottom: 20px;
 }
 
-#about {
-  margin-right: 50px;
+.card {
+  padding: 10px;
+  box-shadow: 0 6px 20px 0 rgb(0, 0, 0);
 }
