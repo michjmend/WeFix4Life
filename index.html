@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>WeFix4Life</title>
-  <meta name="description" content="Updated Portfolio">
+  <meta name="description" content="Updated Jobs">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -19,7 +19,7 @@
 </head>
 
 <body>
-
+  <!-- navbar -->
   <header class="fixed-top">
     <div id="navbar" class="container-fluid bg-dark">
       <nav class="navbar navbar-expand-lg navbar-dark">
@@ -30,29 +30,103 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto" id="collapsibleNavbar">
+            |
             <li class="nav-item">
               <a class="btn btn-dark btn-lg nav-link" href="#about">ABOUT</a>
             </li>
+            |
             <li class="nav-item">
               <a class="btn btn-dark btn-lg nav-link" href="#contact">CONTACT</a>
             </li>
+            |
             <li class="nav-item">
-              <a class="btn btn-dark btn-lg nav-link" href="#portfolio">PORTFOLIO</a>
+              <a class="btn btn-dark btn-lg nav-link" href="#jobs">OUR WORK</a>
             </li>
+            |
           </ul>
         </div>
       </nav>
     </div>
   </header>
-
+  <!-- top pic -->
   <div data-aos="zoom-in-down" class="container">
     <img id="repairPic" src="repair services.jpg" alt="repair pic">
   </div>
-
-  <div class="content container-fluid" data-aos="zoom-in-down">
+  <!-- content -->
+  <div class="content container-fluid">
     <div class="contentInside container">
-      <div class="row ">
-        <div id="about" class="card col-md-8">
+      <div class="row" data-aos="zoom-in-down">
+        <!-- contact -->
+        <div id="contact"></div>
+        <div id="contactSection" class="card col-md-3" data-aos="zoom-in-down">
+          <h2 class="Title">Contact</h2>
+          <!-- owner -->
+          <div class="row contactEdit">
+            <div class="col-md-2">
+              <img class="icon" src="https://img.icons8.com/color/48/000000/bolivia.png">
+            </div>
+            <div class="col-md-10">
+              Owner: Sergio Mendieta Jr.
+            </div>
+          </div>
+          <!-- adress -->
+          <div class="row contactEdit">
+            <div class="col-md-2">
+              <img class="icon" src="https://img.icons8.com/color/48/000000/google-maps.png">
+            </div>
+            <div class="col-md-10">
+              <a target="_blank"
+                href="https://www.google.com/maps/place/223+Locust+Ave,+West+Long+Branch,+NJ+07764/@40.2838945,-74.0206466,17z/data=!3m1!4b1!4m5!3m4!1s0x89c22582abcc1f05:0xd592e02440f546d5!8m2!3d40.2838945!4d-74.0184579">223
+                Locust Avenue, West Long Branch, NJ 07740</a>
+            </div>
+          </div>
+          <!-- phone number -->
+          <div class="row contactEdit">
+            <div class="col-md-2">
+              <img class="icon" src="https://img.icons8.com/color/48/000000/phone.png">
+            </div>
+            <div class="col-md-10">
+              <a href="tel:7322721099">(732) 272-1099</a>
+            </div>
+          </div>
+          <!-- open hours -->
+          <div class="row">
+            <div class="col-md-2">
+              <img class="icon" src="https://img.icons8.com/color/48/000000/time.png">
+            </div>
+            <div class="col-md-10">
+              <h5>Hours of operation:</h5>
+            </div>
+
+            <ul>
+              <h6>(Hours may vary on Holidays)</h6>
+              <li>Sunday</li>
+              <li>Monday</li>
+              <li>Tuesday</li>
+              <li>Wendesday</li>
+              <li>Thursday</li>
+              <li>Friday</li>
+              <li>Saturday</li>
+            </ul>
+          </div>
+          <!-- facebook -->
+          <div class="row contactEdit">
+            <div class="col-md-2">
+              <img class="icon" src="https://img.icons8.com/color/48/000000/facebook-circled.png">
+            </div>
+            <div class="col-md-10">
+              <a target="_blank" href="https://www.facebook.com/sergio.j.mendieta">Check me out on facebook
+              </a>
+            </div>
+          </div>
+
+        </div>
+        <!-- blank column -->
+        <div class="col"></div>
+        <!-- about -->
+        <div id="about"></div>
+        <div id="aboutSection" class="card col-md-8">
+          <h2 class="Title">About</h2>
           <h1>If it's broke, we can fix it.
             <img src="https://img.icons8.com/color/48/000000/engineering.png">
             <img src="https://img.icons8.com/color/48/000000/full-tool-storage-box-.png">
@@ -62,11 +136,12 @@
           </p>
           <p>
             <img src="https://img.icons8.com/color/48/000000/android-os.png">
-            <img src="https://img.icons8.com/color/48/000000/mac-os.png">
             <img src="https://img.icons8.com/color/48/000000/smartphone-tablet.png">
+            <img src="https://img.icons8.com/color/48/000000/mac-os.png">
             <img src="https://img.icons8.com/color/48/000000/laptop--v1.png">
+            <img src="https://img.icons8.com/color/48/000000/charge-battery.png">
             <img src="https://img.icons8.com/color/48/000000/apple-watch-apps.png">
-            <img src="https://img.icons8.com/color/48/000000/mac-client.png">
+            <img src="https://img.icons8.com/color/48/000000/usb-connector.png">
           </p>
           <div id="services" class="bg-dark text-white">
             <h3>Some of our services inclulde:</h3>
@@ -88,65 +163,12 @@
             <h4>We buy all smart devices! (Exclusions may apply)</h4>
           </p>
         </div>
-
-        <div class="col-md-1"></div>
-
-        <div id="contact" class="card col-md-3">
-
-          <div class="row contactEdit">
-            <div class="col-sm-1 col-md-3">
-              <img src="https://img.icons8.com/color/48/000000/google-maps.png">
-            </div>
-            <div class="col-sm-11 col-md-9">
-              <a target="_blank"
-                href="https://www.google.com/maps/place/223+Locust+Ave,+West+Long+Branch,+NJ+07764/@40.2838945,-74.0206466,17z/data=!3m1!4b1!4m5!3m4!1s0x89c22582abcc1f05:0xd592e02440f546d5!8m2!3d40.2838945!4d-74.0184579">223
-                Locust Avenue, West Long Branch, NJ 07740</a>
-            </div>
-          </div>
-
-          <div class="row contactEdit">
-            <div class="col-sm-1 col-md-3">
-              <img src="https://img.icons8.com/color/48/000000/phone.png">
-            </div>
-            <div class="col-sm-11 col-md-9">
-              <a href="tel:7322721099">(732) 272-1099</a>
-            </div>
-          </div>
-
-          <div class="row contactEdit">
-            <div class="col-sm-1 col-md-3">
-              <img src="https://img.icons8.com/color/48/000000/facebook-circled.png">
-            </div>
-            <div class="col-sm-11 col-md-9">
-              <a target="_blank" href="https://www.facebook.com/sergio.j.mendieta">Check me out on facebook
-              </a>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-sm-1 col-md-3">
-              <img src="https://img.icons8.com/color/48/000000/time.png">
-            </div>
-            <div class="col-sm-11 col-md-9">
-              <h5>Hours of operation:</h5>
-            </div>
-
-            <ul>
-              <h6>(Hours may vary on Holidays)</h6>
-              <li>Sunday</li>
-              <li>Monday</li>
-              <li>Tuesday</li>
-              <li>Wendesday</li>
-              <li>Thursday</li>
-              <li>Friday</li>
-              <li>Saturday</li>
-            </ul>
-          </div>
-
-        </div>
       </div>
+      <!-- Jobs -->
       <div class="row">
-        <div id="portfolio" class="card">
+        <div id="jobs"></div>
+        <div id="jobsSection" class="card" data-aos="zoom-in-down">
+          <h2 class="Title">Jobs</h2>
           <div class="row row-cols-1 row-cols-md-2">
             <div class="col mb-4">
               <div class="card text-white bg-dark">
@@ -197,7 +219,7 @@
     </div>
   </footer>
 
-
+  <!-- javascript -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
