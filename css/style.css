@@ -23,10 +23,11 @@
 }
 
 .Title {
-  font-size: 35px;
+  font-size: 40px;
+  font-family: 'Gelasio', serif;
   /* background-color: rgba(100, 148, 237, 0.705); */
   /* background: rgba(27, 29, 28, 0.39); */
-  color: azure;
+  color: white;
   height: 80px;
   padding-top: 20px;
   text-align: center;
